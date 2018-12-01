@@ -197,5 +197,7 @@ In Project 2, we find that the square root of number of buyers, the open price a
 
 # RREFERENCES
 [1] Cuneyt Gurcan Akcora, 2017. Blockchain: A Graph Primer. Online.(2017).https://arxiv.org/abs/1708.08749
+
 [2] Mark Tranmer, 2008 Multiple Linear Regression. Online.(2008)http://hummedia.manchester.ac.uk/institutes/cmist/archive-publications/working-papers/2008/
+
 [3]  Montgomery Runger, 2013. *Applied Statistics and Probability for Engineers 6th edition PDF eTextbook*. (2013).
