@@ -67,7 +67,7 @@ res2$date <- as.Date(as.POSIXct(as.numeric(as.character(res2$date)), origin = '1
 res3<-table(res2[,1]) plot(res3)
 ```
 Then we get this plot:
-![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo Zhou Project/3.png)
+![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo%20Zhou%20Project/3.png)
 
 Then we match open_price and transaction times in two tables, with condition that on the same day. We draw a plot of these two parameters in X and Y axis by following codes
 ```R
