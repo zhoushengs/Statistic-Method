@@ -49,7 +49,7 @@ freq1<-(table(d1[,2]))
 plot(freq1)
 ```
 We got this figure from these codes. Ordinate is the times of transaction and the abscissa is the id of each buyer. 
-![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo Zhou Project/1.png)
+![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo%20Zhou%20Project/1.png)
 
 Then we count the times and its times’ frequency that occur in these transactions. For these processes, we use the following codes:
 ```R
@@ -57,7 +57,7 @@ res1<-(table(freq1))
 plot(res1)
 ```
 After plot the times and its frequency, we got this figure.
-![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo Zhou Project/2.png)
+![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo%20Zhou%20Project/2.png)
 
 ## 5.2 Question 2 Data Visualization
 In this question, the convert the unixtime to the date type. And we caculate the transaction times on that day. We use codes in the following.
@@ -76,7 +76,7 @@ names(date_open)<-c('date','price')
 res5<-merge(date_open, res4, by='date') 
 #select res6<-select(res5,2,3) plot(res6)
 ``` 
-![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo Zhou Project/4.png)
+![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo%20Zhou%20Project/4.png)
 
 ## 5.3 Project 2 Data Visualization
 We merge two table into one result by date to find which will be the better regressor for out model. From the following codes we got the results below.
@@ -90,7 +90,7 @@ res7<-merge(res5,res6,by='date')
 ##res7 : date, price, volumn, transaction,buyernum 
 res7
 ```
-![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo Zhou Project/8.png)
+![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo%20Zhou%20Project/8.png)
 
 # 6. Remove Outliers if Exist
 We find that some buyers buy the smallest amount of coins requested by the market every time. Thus, we filter these buyers out. 
@@ -134,7 +134,7 @@ res2$times<-as.numeric(res2$times)
 ggplot(res2,aes(num,times))+geom_point(aes(color='red'))+geom_smooth(se=FALSE)
 ```
 The figure is shown by the above codes:
-![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo Zhou Project/5.png)
+![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo%20Zhou%20Project/5.png)
 
 After observing the shape, we test some distribution for our data, and we find that the Poisson Distribution fit our data most.
 ```R
@@ -142,7 +142,7 @@ library(fitdistrplus)
 fit_pois<-fitdist(res2$times,"pois") 
 plot(fit_pois)
 ``` 
-![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo Zhou Project/6.png)
+![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo%20Zhou%20Project/6.png)
 
 From the chart, we conclude that Poisson Distribution fits the data.
 
@@ -156,7 +156,7 @@ ggscatter(res6, x = "transaction", y = "price",
           xlab = "transaction", ylab = "price")
 ```
 The figure is shown by the above codes:
-![alt text](https://zhoushengs/Statistic-Method/blob/master/Zimo Zhou Project/7.png)
+![alt text](https://zhoushengs/Statistic-Method/blob/master/Zimo%20Zhou%20Project/7.png)
 
 We know from the chart that **R is 0.71**, we conclude that the correlation of price data and the frequency of transactions fits Pearson correlation.
 # 10. Data fitting and Findings(For project2)
@@ -185,7 +185,7 @@ res<-data.frame(openprice,times,buyernum,returnp)
 summary(s)
 ```
 Following are the results of our codes:
-![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo Zhou Project/9.png)
+![alt text](https://github.com/zhoushengs/Statistic-Method/blob/master/Zimo%20Zhou%20Project/9.png)
 
 # 11. Conclusions and Importance of Findings
 ## 11.1 Conclusion
