@@ -194,3 +194,8 @@ In conclusion. We think that (1) The distribution of how many times a user buys 
 In Question 1, we find that the number of people who buy and sell less is huge and the number of people who buy and sell more is small. So, we can infer that whether most people think this token is worth investing or they just try it out and finally give it up.
 In Question 2. Because of the Pearson Correlation, we can infer that the frequency of transactions becomes larger when the price become lower. So, we can use this laws of economics to decide in what price should we buy the token.
 In Project 2, we find that the square root of number of buyers, the open price and the square root of transaction times run the best results, which come out R square with 0.615. And the p-value is small. So, we choose these three features as our regressors.
+
+# RREFERENCES
+[1] Cuneyt Gurcan Akcora, 2017. Blockchain: A Graph Primer. Online.(2017).https://arxiv.org/abs/1708.08749
+[2] Mark Tranmer, 2008 Multiple Linear Regression. Online.(2008)http://hummedia.manchester.ac.uk/institutes/cmist/archive-publications/working-papers/2008/
+[3]  Montgomery Runger, 2013. *Applied Statistics and Probability for Engineers 6th edition PDF eTextbook*. (2013).
